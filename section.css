@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex; /*Responsável por alinhar os itens lada a lado dentro do HEADER*/
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b676b;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.header i{
+    font-size: 100px;
+}
