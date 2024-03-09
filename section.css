@@ -4,15 +4,69 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/6431804-padrao-de-cachorro-sem-costura-com-impressoes-de-patas-de-ossos-coracoes-e-bolas-padrao-de-textura-de-pe-de-gato-com-pegada-de-cachorro-e-ossos-textura-de-cachorro-desenhado-a-mao-ilustracaoial-estilo-rabiscado-sobre-fundo-branco-vetor.jpg);
+}
+
 .header{
     display: flex; /*Responsável por alinhar os itens lada a lado dentro do HEADER*/
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1b676b;
-    padding: 50px;
-    flex-wrap: wrap;
+    justify-content: space-between;/*Justificando espaço entre os itens*/
+    align-items: center;/*Alinhando na vertical*/
+    background-color: #268fbe;
+    padding: 30px;
+    flex-wrap: wrap;/*Ajuda na quebra de pagina*/
 }
 
 .header i{
-    font-size: 100px;
+    font-size: 60px;
+}
+
+.menu li a{
+    text-decoration: none;/*Tirando sublinhado*/
+    color: white;
+    padding: 10px;/*Espaçamento interno*/
+    background-color: #ffc219;
+    border-radius: 5px;
+}
+
+.menu{
+    display: flex;/*Alinhando itens lado a lado*/
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex{
+    display: flex;/*Colocando itens lado a lado*/
+    flex-wrap: wrap;/*Quebrando itens*/
+    max-width: 800px;/*Adaptação máxima dos conteúdos que estão dentro da section (div)*/
+    margin: 0 auto;/*Centralizar as div*/
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.flex img{
+    max-width: 100%;/*Adaptação máxima da imagem na página dentro da "div"*/
+    display: block;/*Reforçando que minhas imagens estejam em formatos de blocos*/
+    width: 247px;
+    height: 181px;
+}
+
+.flex div{
+    margin: 10px;/*Espaçamento das margens Laterais, superior*/
+    flex: 1 1 200px;/**/
+
+}
+
+.section{
+    color: #e32551;
+    background-color: #ffc219;
+    text-align: left;
+    padding: 70px;
 }
