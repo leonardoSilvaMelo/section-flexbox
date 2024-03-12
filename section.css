@@ -35,6 +35,7 @@ body{
 
 .menu li{
     margin-left: 10px;
+    list-style: none;
 }
 
 h1{
@@ -68,5 +69,48 @@ h1{
     color: #e32551;
     background-color: #ffc219;
     text-align: left;
-    padding: 70px;
+    padding: 70px;   
 }
+
+.section p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: #e32551;
+    align-items: center;
+}
+
+.informacoes{
+    display: flex;
+}
+
+.informacoes li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.informacoes li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.informacoes li a:hover{
+    color: #268fbe;
+    transition: 0.8s;
+}
+
+.rodape i{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+
